@@ -1,0 +1,26 @@
+<script>
+
+
+y=prompt("enter your name","name..")
+
+    
+
+    if(y== "admin")
+    {
+        x= prompt("please guess the riught number")
+        if(x==27)
+        alert("your guess is correct")
+        else 
+        alert("wrong guess !!")
+    }
+    else
+   alert("your entred name incorrect, please try again !")
+ 
+
+    
+        document.write(y+" "+x);
+   
+ 
+ </script>
+
+
